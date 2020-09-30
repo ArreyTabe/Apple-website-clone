@@ -14,15 +14,34 @@ body{
      width: 100%;
      background-image: url("../images/background.jpg");
      background-position: -50px 540px;
-     /* background-repeat: no-repeat; */
  }
  .apple-nav{
     position: absolute;
-    border: 1px solid hotpink;
+    background-color: rgb(110, 110, 110);
     top: 100px;
     right: 200px;
     left: 200px;
+    border-radius: 10px;
+ }
+ .apple-nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
  }
  .apple-nav li{
      display: inline;
+    text-align: center;
+    list-style: none;
+ }
+ .apple-nav a{
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     font-family: "Source Sans Pro", sans-serif;
+ }
+ #apple{
+     font-size: 25px;
+ }
+ .select-verse{
+     position: absolute;
+     top: 280px;
  }
