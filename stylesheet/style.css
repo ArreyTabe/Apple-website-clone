@@ -10,10 +10,10 @@ body{
 
  header{
      position: relative;
-     height: 600px;
+     height: 530px;
      width: 100%;
      background-image: url("../images/background.jpg");
-     background-position: -70px 560px;
+     background-position: -50px 540px;
      /* background-repeat: no-repeat; */
  }
  .apple-nav{
