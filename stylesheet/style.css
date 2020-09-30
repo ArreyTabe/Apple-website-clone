@@ -1,10 +1,7 @@
 body {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    /* background-color: transparent;
-    color: #333;
-    -webkit-font-smoothing: antialiased; */
     margin: 0;
     padding: 0;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 /*
@@ -68,7 +65,6 @@ h1 {
     font-weight: 100;
     text-align: center;
     -webkit-font-smoothing: antialiased;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .select-verse p {
@@ -77,6 +73,7 @@ h1 {
     font-size: 30px;
     text-align: center;
     margin-bottom: 10px;
+    background-color: transparent;
 }
 
 .select-verse a {
@@ -91,4 +88,25 @@ h1 {
 #forward-play {
     font-size: 40px;
     margin-left: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 14px;
+}
+.f-copy p{
+    color: rgb(110, 110, 110);
+}
+.f-link{
+    margin-top: 10px;
+}
+
+.f-link img{
+    width: 15px;
 }
