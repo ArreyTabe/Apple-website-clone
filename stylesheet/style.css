@@ -1,8 +1,8 @@
 body {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 /*
@@ -12,154 +12,155 @@ body {
  */
 
 header {
-    position: relative;
-    height: 530px;
-    width: 100%;
-    background-image: url("../images/background.jpg");
-    background-position: -50px 540px;
+  position: relative;
+  height: 530px;
+  width: 100%;
+  background-image: url("../images/background.jpg");
+  background-position: -50px 540px;
 }
 
 .apple-nav {
-    position: absolute;
-    top: 65px;
-    right: 200px;
-    left: 200px;
+  position: absolute;
+  top: 65px;
+  right: 200px;
+  left: 200px;
 }
 
 .apple-nav ul {
-    padding: 2px;
-    border-radius: 4px;
-    background-color: rgb(110, 110, 110);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: rgb(110, 110, 110);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .apple-nav li {
-    display: block;
-    text-align: center;
-    list-style: none;
+  display: block;
+  text-align: center;
+  list-style: none;
 }
 
 .apple-nav a {
-    font-size: 14px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    display: block;
-    padding: 8px 14px;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: block;
+  padding: 8px 14px;
 }
 
 #apple {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 #search {
-    position: relative;
+  position: relative;
 }
 
 #search .iconify {
-    position: absolute;
-    left: 10px;
-    bottom: 12px;
-    color: white;
-    top: 6px;
+  position: absolute;
+  left: 10px;
+  bottom: 12px;
+  color: white;
+  top: 6px;
 }
 
 .search {
-    outline: none;
-    background-color: rgb(110, 110, 110);
-    border-radius: 15px;
-    width: 100px;
-    transition: all 0.2s ease-in-out;
+  outline: none;
+  background-color: rgb(110, 110, 110);
+  border-radius: 15px;
+  width: 100px;
+  transition: all 0.2s ease-in-out;
 }
 
 .search:hover {
-    background: white;
-    width: 200px;
+  background: white;
+  width: 200px;
 }
 
 .select-verse a {
-    display: flex;
-    text-decoration: none;
-    color: white;
-    font-size: 23px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer a {
-    text-decoration: none;
-    color: rgb(0, 136, 204);
+  text-decoration: none;
+  color: rgb(0, 136, 204);
 }
 
 .f-link a {
-    padding: 3px;
+  padding: 3px;
 }
 
 .apple-nav a:hover {
-    background-color: rgb(51, 51, 51);
+  background-color: rgb(51, 51, 51);
 }
 
 .select-verse {
-    position: absolute;
-    top: 120px;
-    left: 270px;
-    right: 350px;
-    width: 60%;
+  position: absolute;
+  top: 120px;
+  left: 270px;
+  right: 350px;
+  width: 60%;
 }
 
 h1 {
-    margin-bottom: 1px;
-    color: #fff;
-    font-size: 60px;
-    font-weight: 100;
-    text-align: center;
-    -webkit-font-smoothing: antialiased;
+  margin-bottom: 1px;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
 }
 
 .select-verse p {
-    color: #fff;
-    line-height: 1.5;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 10px;
-    background-color: transparent;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: transparent;
 }
 
 #forward-play {
-    font-size: 40px;
-    margin-left: 10px;
+  font-size: 40px;
+  margin-left: 10px;
 }
 
 .main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-bottom: 10px;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 150px;
-    margin-right: 150px;
-    font-size: 12px;
-    align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 12px;
+  align-items: baseline;
 }
 
 .footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .f-copy p {
-    color: rgb(110, 110, 110);
+  color: rgb(110, 110, 110);
 }
 
 .f-link {
-    display: flex;
-    align-self: baseline;
-    justify-content: space-between;
+  display: flex;
+  align-self: baseline;
+  justify-content: space-between;
 }
 
 .f-link img {
-    width: 15px;
+  width: 15px;
 }
+
