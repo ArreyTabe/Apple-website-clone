@@ -1,5 +1,28 @@
- /*
+body{
+     margin: 0;
+     padding: 0;
+    }
+/*
  ======================
  header
  ======================
  */
+
+ header{
+     position: relative;
+     height: 600px;
+     width: 100%;
+     background-image: url("../images/background.jpg");
+     background-position: -70px 560px;
+     /* background-repeat: no-repeat; */
+ }
+ .apple-nav{
+    position: absolute;
+    border: 1px solid hotpink;
+    top: 100px;
+    right: 200px;
+    left: 200px;
+ }
+ .apple-nav li{
+     display: inline;
+ }
