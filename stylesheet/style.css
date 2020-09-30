@@ -1,47 +1,94 @@
-body{
-     margin: 0;
-     padding: 0;
-    }
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    /* background-color: transparent;
+    color: #333;
+    -webkit-font-smoothing: antialiased; */
+    margin: 0;
+    padding: 0;
+}
+
 /*
  ======================
  header
  ======================
  */
 
- header{
-     position: relative;
-     height: 530px;
-     width: 100%;
-     background-image: url("../images/background.jpg");
-     background-position: -50px 540px;
- }
- .apple-nav{
+header {
+    position: relative;
+    height: 530px;
+    width: 100%;
+    background-image: url("../images/background.jpg");
+    background-position: -50px 540px;
+}
+
+.apple-nav {
     position: absolute;
-    background-color: rgb(110, 110, 110);
-    top: 100px;
+    top: 65px;
     right: 200px;
     left: 200px;
-    border-radius: 10px;
- }
- .apple-nav ul{
+}
+
+.apple-nav ul {
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgb(110, 110, 110);
     display: flex;
     justify-content: space-around;
     align-items: center;
- }
- .apple-nav li{
-     display: inline;
+}
+
+.apple-nav li {
+    display: inline;
     text-align: center;
     list-style: none;
- }
- .apple-nav a{
-     text-decoration: none;
-     color: rgb(255, 255, 255);
-     font-family: "Source Sans Pro", sans-serif;
- }
- #apple{
-     font-size: 25px;
- }
- .select-verse{
-     position: absolute;
-     top: 280px;
- }
+}
+
+.apple-nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#apple {
+    font-size: 25px;
+}
+
+.select-verse {
+    position: absolute;
+    top: 120px;
+    left: 270px;
+    right: 350px;
+    width: 60%;
+}
+
+h1 {
+    margin-bottom: 1px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.select-verse p {
+    color: #fff;
+    line-height: 1.5;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.select-verse a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    align-items: center;
+    justify-content: center;
+}
+
+#forward-play {
+    font-size: 40px;
+    margin-left: 10px;
+}
