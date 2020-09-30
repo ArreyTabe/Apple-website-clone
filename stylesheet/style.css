@@ -78,6 +78,24 @@ header {
     width: 200px;
 }
 
+.select-verse a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(0, 136, 204);
+}
+
+.f-link a {
+    padding: 3px;
+}
+
 .apple-nav a:hover {
     background-color: rgb(51, 51, 51);
 }
@@ -108,15 +126,6 @@ h1 {
     background-color: transparent;
 }
 
-.select-verse a {
-    display: flex;
-    text-decoration: none;
-    color: white;
-    font-size: 23px;
-    align-items: center;
-    justify-content: center;
-}
-
 #forward-play {
     font-size: 40px;
     margin-left: 10px;
@@ -124,7 +133,7 @@ h1 {
 
 .main {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     margin-bottom: 10px;
 }
 
@@ -135,11 +144,6 @@ h1 {
     margin-right: 150px;
     font-size: 12px;
     align-items: baseline;
-}
-
-.footer a {
-    text-decoration: none;
-    color: rgb(0, 136, 204);
 }
 
 .footer a:hover {
@@ -154,10 +158,6 @@ h1 {
     display: flex;
     align-self: baseline;
     justify-content: space-between;
-}
-
-.f-link a {
-    padding: 3px;
 }
 
 .f-link img {
