@@ -27,16 +27,17 @@ header {
 }
 
 .apple-nav ul {
-    padding: 5px;
+    padding: 2px;
     border-radius: 4px;
     background-color: rgb(110, 110, 110);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .apple-nav li {
-    display: inline;
+    display: block;
     text-align: center;
     list-style: none;
 }
@@ -45,12 +46,35 @@ header {
     font-size: 14px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    display: block;
+    padding: 8px 14px;
 }
 
 #apple {
     font-size: 25px;
 }
-
+#search{
+    position: relative;
+}
+#search .iconify {
+    position: absolute;
+    left: 20px;
+    bottom: 12px;
+}
+.search{
+    outline: none;
+    background-color: rgb(110, 110, 110);
+    border-radius: 15px;
+    width: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.search:hover {
+    background: white;
+    width: 200px;
+}
+a:hover{
+    background-color: rgb(51, 51, 51);
+}
 .select-verse {
     position: absolute;
     top: 120px;
