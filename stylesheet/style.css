@@ -33,7 +33,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .apple-nav li {
@@ -53,28 +52,36 @@ header {
 #apple {
     font-size: 25px;
 }
-#search{
+
+#search {
     position: relative;
 }
+
 #search .iconify {
     position: absolute;
-    left: 20px;
+    left: 10px;
     bottom: 12px;
+    color: white;
+    top: 6px;
 }
-.search{
+
+.search {
     outline: none;
     background-color: rgb(110, 110, 110);
     border-radius: 15px;
     width: 100px;
     transition: all 0.2s ease-in-out;
 }
+
 .search:hover {
     background: white;
     width: 200px;
 }
-a:hover{
+
+.apple-nav a:hover {
     background-color: rgb(51, 51, 51);
 }
+
 .select-verse {
     position: absolute;
     top: 120px;
